@@ -1,5 +1,5 @@
 local LOGLEVEL = "debug"
-local MIN = module:get_option_number("conference_max_minutes", 10)
+local MIN = module:get_option_number("conference_timeout", 10)
 local TIMEOUT = MIN
 local is_healthcheck_room = module:require "util".is_healthcheck_room
 local st = require "util.stanza"
