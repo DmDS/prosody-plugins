@@ -35,7 +35,7 @@ If the moderator (re)joins within the specified timeout, the room will not be cl
   systemctl restart jicofo.service
   ```
   
-- To enable redirect after the end of the conference to the home page (or the desired URL), paste this code into /usr/share/jitsi-meet/body.html and set **homepage** to desired URL. 
+- To enable redirect after the end of the conference to the home page (or any desired URL), paste this code into /usr/share/jitsi-meet/body.html and set **homepage** to desired URL. 
   <details>
   
   ```
