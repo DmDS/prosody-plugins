@@ -11,7 +11,7 @@ If the moderator (re)joins within the specified timeout, the room will not be cl
 
   ```bash
   cd /usr/share/jitsi-meet/prosody-plugins/
-  wget -O mod_close_room.lua https://raw.githubusercontent.com/jitsi-contrib/prosody-plugins/main/close_room/mod_close_room.lua
+  wget -O mod_close_room.lua https://github.com/DmDS/prosody-plugins/blob/7d7417c858e703f2ad82165ff479788af0b43a46/close_room/mod_close_room.lua
   ```
 
 - Enable module in your prosody config.
