@@ -1,4 +1,4 @@
-# Time Restricted
+# Close Room
 
 This plugin destroys the room if the last moderator left (secure domain)
 Timeout is configurable (in seconds).
